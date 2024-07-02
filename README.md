@@ -24,6 +24,7 @@ This section demonstrates the format where English text is followed by Chinese t
 
 ![image](https://github.com/nafeszaasyiqin/Autocount-Template/assets/106697359/1c0d8fff-1f72-4e0e-a12d-045aa616565e)
 
-  Standard data format in the Autocount system
+Default data format in the Autocount template
 
-  ![image](https://github.com/nafeszaasyiqin/Autocount-Template/assets/106697359/156dcf7d-3c67-4e9e-9127-46909c39d77c)
+![image](https://github.com/nafeszaasyiqin/Autocount-Template/assets/106697359/0014dd03-91c4-4d75-ba9e-72e22bb947cd)
+
