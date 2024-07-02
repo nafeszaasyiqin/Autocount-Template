@@ -1,0 +1,43 @@
+/* Code for Handling Item Description Data Manipulation
+The following code snippet demonstrates how to handle item description data manipulation in the Autocount system. 
+It extracts Chinese characters and interspersed symbols from the input text, formats the "MOQ1" column value, and updates the table cell text accordingly.
+*/
+
+
+private void tableCell3_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e) {
+    
+      string inputText = tableCell3.Text;
+    
+    // Define a regular expression pattern to match Chinese characters and interspersed symbols
+    Regex regex = new Regex(@"[\u4E00-\u9FFF]+(?:[^\p{L}\p{N}]+[\u4E00-\u9FFF]+)*", RegexOptions.Compiled);
+
+    // Perform the matching operation
+    MatchCollection matches = regex.Matches(inputText);
+
+    // Check if the input text contains any matches
+    if (matches.Count > 0)
+    {
+        StringBuilder chineseTextBuilder = new StringBuilder();
+
+        // Iterate through each match to collect all Chinese characters and interspersed symbols
+        foreach (Match match in matches)
+        {
+            chineseTextBuilder.Append(match.Value); // Collect all Chinese characters and symbols
+        }
+
+        string chineseText = chineseTextBuilder.ToString();
+        
+        string moq = DetailReport.GetCurrentColumnValue("MOQ1").ToString();
+        string formattedMoq = "<span style='color: red;'>" + moq + "</span>";
+
+        // If matches are found, remove them from the input text
+        inputText = regex.Replace(inputText, "");
+
+       
+        
+        // Update the label text with the filtered text
+        tableCell3.Text = inputText + chineseText  ;
+     }
+
+}
+
