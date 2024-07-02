@@ -14,7 +14,7 @@ Welcome to the Autocount Template Project! This repository contains customizable
   ![image](https://github.com/nafeszaasyiqin/Autocount-Template/assets/106697359/5494ace5-2402-400b-b4d0-fdf1b9d342ee)
 
 
-**1.2 Auto-Circle Features **
+**1.2 Auto-Circle Features**
 This section covers the automatic circle drawing feature, which eliminates the need to draw circles manually using a pen or word processing tools.
 
 ![image](https://github.com/nafeszaasyiqin/Autocount-Template/assets/106697359/535b1454-5586-408b-8e29-cb473f311ce2)
