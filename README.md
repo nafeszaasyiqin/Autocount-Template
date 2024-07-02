@@ -8,7 +8,7 @@ Default Format
 ![image](https://github.com/nafeszaasyiqin/Autocount-Template/assets/106697359/49bd5004-ffd5-48c0-a6bc-e4727b9c79de)
 
 Standard String Editor Show Constraint
-![image](https://github.com/nafeszaasyiqin/Autocount-Template/assets/106697359/c08ff40f-6bbf-43c4-aa39-d717a8db4375)
+![image](https://github.com/nafeszaasyiqin/Autocount-Template/assets/106697359/d37d2604-61bb-4763-8c3c-e4b07e1f1535)
 
 Custom Ordinal Format
 ![image](https://github.com/nafeszaasyiqin/Autocount-Template/assets/106697359/5494ace5-2402-400b-b4d0-fdf1b9d342ee)
